@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Hammersmith+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff6ea;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+header {
+    background-color: #E1D3BB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #d39931;
+    
+}
+
+.teste1 {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.test2 {
+    width: 40px;
+}
+.logo1 {
+    width: 10rem;
+    height: 8rem;
+    padding: 3px;
+}
+
+.logo {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.lista1 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    color: #4f4f4f;
+    padding: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.conteudo-principal {
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+    align-items: stretch;
+
+}
+
+.imagem1 {
+    width: auto;
+    height: 40rem;
+
+}
+
+.texto-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
+    padding: 2rem;
+    color: #993c3d
+
+}
+
+h1 {
+    border-bottom: 3px solid #d39931 ;
+    color: #993c3d
+}
+
+.destacado::first-letter {
+    font-size: 30px;
+}
+
+.destacado {
+    text-indent: 10px
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #4f4f4f;
+}
+
+.feedbacks {
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #d39931;
+    padding: 30px;
+
+}
+
+footer {
+    background-color: #4f3729; 
+    color: white;
+    text-align: center; 
+    padding: 20px;
+    font-size: 12px;
+    border-top: 2px solid #d39931;
+}
+
+.footer-container p {
+    margin: 5px
+}
+
+.footer-container a {
+    color: #d39931;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
